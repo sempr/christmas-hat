@@ -43,3 +43,7 @@
 .scale {
   width: 250px;
 }
+
+.extra {
+  margin-top: 10px;
+}

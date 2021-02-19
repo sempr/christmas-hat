@@ -1,0 +1,13 @@
+<view class="container">
+  <text class="text">
+    Path: {{path}}
+  </text>
+  <view class="text">
+    <view wx:for='{{options}}' wx:for-index='key'>
+      <view>{{key}}: {{item}}</view>
+    </view>
+    <view class="text">
+      q: {{q}}
+    </view>
+  </view>
+</view>

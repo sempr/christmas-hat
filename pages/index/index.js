@@ -18,6 +18,11 @@ Page({
     errorMsg: '',
   },
 
+  onJump: function() {
+    wx.navigateTo({
+      url: '/pages/cloudp/index?q=http://a=b&c=d&t=11111111111000000000000000000000000000000000000000111111',
+    })
+  },
   onLoad: function () {
 
     if (app.globalData.userInfo) {

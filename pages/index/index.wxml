@@ -16,6 +16,8 @@
       <button bindtap="saveImage"> 保存至相册</button>
     </block>
   </view>
-  
+  <view class="extra">
+    <button bindtap="onJump">Jump</button>  
+  </view>
 </view>
      
